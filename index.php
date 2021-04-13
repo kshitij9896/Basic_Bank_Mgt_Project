@@ -212,6 +212,6 @@ require 'config.php';
 <?php    
 
  } 
-       // $conn->close();
+       $conn->close();
 
 ?>

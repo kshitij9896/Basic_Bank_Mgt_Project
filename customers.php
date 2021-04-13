@@ -8,7 +8,8 @@
           <?php
 // error_reporting(E_ERROR | E_PARSE);
     
-$connect = mysqli_connect("localhost", "root", "", "bank");
+// $connect = mysqli_connect("localhost", "root", "", "bank");
+          
 $output = '';
 $search = mysqli_real_escape_string($connect, $_POST["query"]);
  $query = "SELECT * FROM customers";

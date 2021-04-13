@@ -15,10 +15,10 @@
 	$password="YE2uVVDdzc";
     $dbname="nKOwEQAS";
     $charset = 'utf8mb4'
-				// error_reporting(E_ERROR | E_PARSE);
+				error_reporting(E_ERROR | E_PARSE);
 		
-	// $conn= new mysql($servername,$username,$password,$dbname);
-$conn = "mysql:host=$servername;dbname=$dbname;charset=$charset";
+	$conn= new mysqli($servername,$username,$password,$dbname);
+
 
 // try{
 // 	$pdo = new PDO($conn,$servername,$pass);
