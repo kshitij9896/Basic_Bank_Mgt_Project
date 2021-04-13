@@ -17,9 +17,7 @@
                     
             </div>
             </div>
-            <div class="col l4 offset-l2 s12">
-                Demo
-                       </div>
+            
         </div>
     </div>
     <div class="footer-copyright">

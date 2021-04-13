@@ -140,12 +140,12 @@
 <script>
 $(document).ready(function() {
     $('#header').load('header.php');
-    $('#mainsection').load('mainsection.html');
+    $('#mainsection').load('mainsection.php');
     $('#customers').load('customers.php');
     // $('#kshitijskills').load('skills.html');
     // $('#experience').load('experience.html');
     // $('#contactkshitij').load('contact.html');
-    $('#footer').load('Footer.html');
+    $('#footer').load('Footer.php');
 });
 </script>
 <script>
@@ -188,7 +188,7 @@ require 'config.php';
                 if($conn->query($qry)===TRUE && $conn->query($upd)===TRUE)
                 {
                     ?><script>
-                            alert("Done");
+                            alert("Transaction Successfull!!!");
                         
                                     
                                     
@@ -201,7 +201,7 @@ require 'config.php';
                     <script>
                                
                     
-                      alert("Student Record not deleted....");
+                      alert("Error! Transaction Unsuccessfull!!");
                                           
                     </script>
                     <?php

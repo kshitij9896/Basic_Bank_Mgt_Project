@@ -18,10 +18,10 @@
             </div>
             <a href="#mainsection"><img class="circle" src="img/bank.png"></a>
             <a href="#mainsection"><span class="white-text name" style="font-weight: bold;letter-spacing: 4px;">The Spark Bank</span></a>
-            <a href="#mainsection"><span class="white-text email" style="font-weight: bold;letter-spacing: 3px;text-transform: uppercase;">Project By Kshitij Bansod</span></a>
+            <a href="#mainsection"><span class="white-text email" style="font-weight: bold;letter-spacing: 3px;text-transform: capitalize;">Basic Bank Mgt Project</span></a>
         </div>
     </li>
-    <li><a href="#mainsection" class="waves-effect">HOME</a></li>
+    <li><a href="#mainsection" class="waves-effect">Home</a></li>
     <!-- <li><a href="#mainsection" class="waves-effect">SK</a></li> -->
     <li><a href="#customers" class="waves-effect">View All Accounts</a></li>
     <!-- <li><a href="#experience" class="waves-effect">EXPERIENCE</a></li> -->
