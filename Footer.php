@@ -6,12 +6,7 @@
                     <h5 class="white-text" style="font-weight: bold;letter-spacing: 2px;">Sparks Bank</h5>
                 </a>
                 <p class="grey-text text-lighten-4" style="letter-spacing: 2px;">Spark Foundation Project</p>
-                 <!-- <p style="letter-spacing: 2px;">Contact me : kshitijbansod47@gmail.com   </p> -->
-                <!--  <p><a href="mailto:kshitijbansod47@gmail.com" target="_blank">
-                        <button class="btn waves-effect waves-light btn-small" type="submit" name="action" target="_blank" style="letter-spacing: 2px;">
-                            Contact Me</button></a></p>               
-                 -->
-                <div class="card-content center-align" id="#contactkshitij">
+                           <div class="card-content center-align" id="#contactkshitij">
                      <p class="left" style="letter-spacing:2px;"><i class="fa fa-copyright" style="font-size:13px;"></i> 2020 Sparks Bank </p>
            
                     

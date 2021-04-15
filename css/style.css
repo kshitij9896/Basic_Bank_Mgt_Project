@@ -1,19 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&family=Work+Sans&display=swap');
-*{
-	margin:0;
-	padding: 0;
-	box-sizing: border-box;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 body {
     background: #fff;
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
-html
-{
-	scroll-behavior: smooth;
+
+html {
+    scroll-behavior: smooth;
 }
+
 @keyframes fadeInAnimation {
     0% {
         opacity: 0;
@@ -23,7 +26,9 @@ html
         opacity: 1;
     }
 }
-table td, th {
+
+table td,
+th {
     padding: 15px 5px;
     display: table-cell;
     text-align: left;
@@ -31,10 +36,11 @@ table td, th {
     border-radius: 2px;
     text-align: center;
 }
-th
-{
-text-align: center!important;
+
+th {
+    text-align: center !important;
 }
+
 .parallax-container {
     height: 150px;
 }

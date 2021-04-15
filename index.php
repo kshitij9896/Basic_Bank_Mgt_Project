@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script> -->
+   
 </head>
 
 <body ondragstart="return false" onselectstart="return false">
@@ -51,30 +51,15 @@
             while($row=mysqli_fetch_array($sql))
             {
         ?>
-        <!-- <input id="c_id" type="dropdown" required class="validate" name="c_id" tabindex="1" > -->
-        <!-- <option value="0"></option> -->
-
             <option ><?php echo $row["c_id"]; ?></option>
         <?php
             }
         ?>
     </select>
-
-      
- <label for="c_id"><i class="fa fa-user">&nbsp; Sender's</i></label>
-                                   
-
-                                 
-
-                                   
-                                    <!-- <div id="usermsg"></div> -->
+ <label for="c_id"><i class="fa fa-user">&nbsp; Sender's</i></label>                                     
                                 </div>
                             </div>
-
-
-
-
-                            <div class="row">
+                           <div class="row">
                                 <div class="input-field col s12">
 
     <select name="c_id2" tabindex="2">
@@ -84,26 +69,13 @@
             while($row=mysqli_fetch_array($sql))
             {
         ?>
-        <!-- <input id="c_id" type="dropdown" required class="validate" name="c_id" tabindex="1" > -->
-        <!-- <option value="0"></option> -->
-
-            <option ><?php echo $row["c_id"]; ?></option>
+                   <option ><?php echo $row["c_id"]; ?></option>
         <?php
             }
         ?>
     </select>
-
-     
-   
-
-
-  
- <label for="c_id"><i class="fa fa-user">&nbsp;Receiver A/c*</i></label>
-                                   
-
-                                   <!--  <input id="c_id2" type="number" required class="validate" name="c_id2">
-                                    <label for="c_id2"><i class="fa fa-envelope" tabindex="2">&nbsp; Receiver A/c</label></i>
- -->                                    <div id="emailmsg"></div>
+ <label for="c_id"><i class="fa fa-user">&nbsp;Receiver A/c*</i></label>                          
+                                    <div id="emailmsg"></div>
                                 </div>
                             </div>
                             <div class="row">
@@ -130,8 +102,6 @@
 </div>
     <div id="footer"></div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script> -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 
@@ -141,9 +111,6 @@ $(document).ready(function() {
     $('#header').load('header.php');
     $('#mainsection').load('mainsection.php');
     $('#customers').load('customers.php');
-    // $('#kshitijskills').load('skills.html');
-    // $('#experience').load('experience.html');
-    // $('#contactkshitij').load('contact.html');
     $('#footer').load('Footer.php');
 });
 </script>
@@ -174,13 +141,8 @@ require 'config.php';
         $ac1 = $_POST['c_id'];
         $ac2 = $_POST['c_id2'];
         $amt1 = $_POST['amt'];
-      
-        
- 
-           // $qry="UPDATE  WHERE c_id = '$ac1";
-           // $upd="UPDATE customers SET avl_bal='$amt' WHERE c_id='$ac2'";
-            
-                        $qry="INSERT INTO transfer (c_id,c_id2,amt) VALUES ('$ac1','$ac2','$amt1')";
+
+        $qry="INSERT INTO transfer (c_id,c_id2,amt) VALUES ('$ac1','$ac2','$amt1')";
                         $amt2 = 100;
                         $upd="UPDATE customers SET avl_bal = '$amt2' WHERE c_id = '$ac2'"; 
 
