@@ -1,0 +1,35 @@
+CodeIgniter Notes
+-It Follows MVC Pattern
+MVC
+Framework == Collection of Reusable Libraries
+Model == Database related & Logic
+View == User view
+Controller == Manage The Communication between Model & View 
+PHP -- CodeIgniter Open Source
+
+Directory Structure
+System == Core Functionality
+Application == To work with
+
+When Any Request Arrive its First Comes 
+to Controller then controller will 
+decide what to show
+the  request goes through index.php
+
+
+How it works
+index.php
+
+In CodeIgniter 
+One Contoller include various function
+
+http://localhost/CodeIgniter-3.1.11/index.php/Welcome/index
+
+Controller 
+-Bussiness Logic
+
+
+Model
+==Used To deal with backend
+==Also used to intigrate Third party API
+
